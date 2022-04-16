@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Tabela 4</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Sriracha&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Permanent+Marker&display=swap');
+        table{border-collapse: collapse; background-color: white;}
+        th, td{border: 1px solid black; padding: 10px; width: 200px;}
+        .color{background-color: darkgray; color: white;}
+        body{background-image: linear-gradient(to bottom, rgb(21, 175, 226), rgb(124, 104, 104)); background-attachment: fixed;}
+        .center{text-align: center;}
+        #center{text-align: center;}
+        .title{font-family: 'Montserrat Alternates'; text-align: center; padding: 20px; background-color: transparent;}
+        td:hover{background-color: yellow; color: black;}
+        
+
+
+    </style>
+</head>
+<body>
+    <h1 class="title">Tabela de Notas</h1>
+    <table>
+        <caption style="padding: 10px; font-weight: bolder; font-size: 30px; font-family: 'Permanent Marker';">Média de notas</caption>
+        <thead>
+            <tr>
+                <th rowspan="2" colspan="2" class="color">Área</th>
+                <th rowspan="2" colspan="2" class="color">Disciplinas</th>
+                <th colspan="2" class="color">Notas</th>
+                <th rowspan="2" class="color">Média</th>
+            </tr>
+            <th class="color">Nota 1</th>
+            <th class="color">Nota 2</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" colspan="2">Exatas</td>
+                <td colspan="2">Matemática</td>
+                <td class="center">0.0</td>
+                <td class="center">0.0</td>
+                <td class="center">0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2">Física</td>
+                <td class="center">0.0</td>
+                <td class="center">0.0</td>
+                <td class="center">0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2">Química</td>
+                <td class="center">0.0</td>
+                <td class="center">0.0</td>
+                <td class="center">0.0</td>
+            </tr>
+            <tr>
+                <th class="color" colspan="6">Média de exatas</th>
+                <td class="color" id="center">0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" colspan="2">Humanas</th>
+                <td colspan="2">Hístoria</td>
+                <td class="center">0.0</td>
+                <td class="center">0.0</td>
+                <td class="center">0.0</td>
+            </tr>
+            <tr>
+                <td colspan="2">Geografia</td>
+                <td class="center">0.0</td>
+                <td class="center">0.0</td>
+                <td class="center">0.0</td>
+            </tr>
+            <th class="color" colspan="6">Média de humanas</th>
+            <td class="color" id="center">0.0</td>
+        </tbody>
+    </table>
+</body>
+</html>
